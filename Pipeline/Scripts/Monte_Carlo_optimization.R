@@ -136,7 +136,7 @@ for(Beta in 1:length(Beta_range)){
     new_res <- res_to_ins
     num_res <- Interface_cycle[pos_res_mut,3]
     
-    #### structure prediction via Scwrl ####
+    #### structure prediction via Scwrl4 ####
     print('+++ structure prediction +++')
     setwd("path_to_Scwrl_dir") ###############remember to check the input and output files path (Scwrl location)
     
